@@ -17,7 +17,7 @@ static adc_oneshot_unit_handle_t adc1_handle = NULL;
 static adc_cali_handle_t adc1_cali_handle = NULL;
 
 // Use a fake value of 27.6v when we don't have ADC.
-static uint32_t batMv = 27600;
+static uint32_t batMv = 26400;
 
 // We try to measure every 100ms, so 100 points gives us 10 seconds history.
 static uint8_t history[100];
